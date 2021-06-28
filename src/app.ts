@@ -38,7 +38,7 @@ export class WhereInTheWorld {
 		});
 
 		this.globe = MRE.Actor.CreateFromGltf(this.assets, {
-			uri: `${webhost.baseUrl}/earth.gltf`,
+			uri: `${webhost.baseUrl}/Globetest.gltf`,
 			actor: { parentId: this.root.id }
 		});
 
